@@ -114,6 +114,7 @@ CsiParam {
     0x3b         => (_, Param)
     [0x3c..0x3f] => (CsiIgnore, _)
     [0x40..0x7e] => (Ground, CsiDispatch)
+    0x52         => (CsiIgnore, _)
     0x7f         => (_, _)
 }
 
